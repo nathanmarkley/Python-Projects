@@ -126,9 +126,9 @@ def Take_query():
 			webbrowser.open("www.youtube.com")
 			continue
 		
-		elif "open duckduckgo" in query:
-			speak("Opening DuckDuck Go ")
-			webbrowser.open("https://duckduckgo.com/")
+		elif "search" in query:
+			speak("Opening Google ")
+			webbrowser.open("https://google.com/")
 			continue
 			
 		elif "what day is it" in query:
